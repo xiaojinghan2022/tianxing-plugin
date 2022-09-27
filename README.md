@@ -9,13 +9,14 @@
 
 #### 安装教程
 
-1.  在云崽bot根目录下执行
+1.  xxxx
 2.  xxxx
 3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
+1.  在云崽bot根目录下执行
+git clone ./plugins/tianxing-plugin/
 2.  xxxx
 3.  xxxx
 
