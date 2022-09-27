@@ -22,6 +22,10 @@
 ```
 git clone https://gitee.com/xiaojinghan2022/tianxing-plugin.git ./plugins/tianxing-plugin/
 ```
+或者（二选一，国内gitee比较快）
+```
+git clone https://github.com/xiaojinghan2022/tianxing-plugin.git ./plugins/tianxing-plugin/
+```
 
 2.  -`这里输入代码`
 3.  xxxx
