@@ -16,7 +16,9 @@
 #### 使用说明
 
 1.  在云崽bot根目录下执行
-git clone ./plugins/tianxing-plugin/
+
+git clone https://gitee.com/xiaojinghan2022/tianxing-plugin.git ./plugins/tianxing-plugin/
+
 2.  xxxx
 3.  xxxx
 
