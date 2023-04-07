@@ -34,11 +34,11 @@ export class tianxing_help extends plugin {
         });
     };
     async init(){
-        let firstHelpConfig = setting.getConfig("autoHelp");
+        let firstHelpConfig = setting.getConfig("helpAboutTianXing");
         if (!firstHelpConfig.sent){
           await Common.relpyPrivate(config.masterQQ[0], '欢迎您使用天星插件！\n本插件有点简陋\n可能需要您了解一些报错的解决方法\n否则请在出问题后停用本插件！（本消息仅发送一次）')
           firstHelpConfig.sent = true
-          setting.setConfig("autoHelp", firstHelpConfig)
+          setting.setConfig("helpAboutTianXing", firstHelpConfig)
         }
       }
     async help(e) {
