@@ -12,12 +12,15 @@ export class tianxing_help extends plugin {
             /** 事件 */
             event: 'message',
             /** 优先级，甚至可以-999999(这个应该不会冲突吧？) */
-            priority: 11451409,
+            priority: -11451409,
             /** 正则 */
             rule: [
                 {
-                    /** 命令，|是或的意思，^代表前面有就匹配,$是后面 */
-                    reg: '^#?(tianxing|天星)(help|帮助|命令|使用帮助|q)$',
+                    /** 
+                     * 命令，|是或的意思，^代表前面有就匹配,$是后面。
+                     * 为了方便，添加了特殊符号，输入’.q‘也可以触发帮助[doge]
+                     */
+                    reg: '^#?(tianxing|天星|。|.)(help|帮助|命令|使用帮助|q|bz)$',
                     /** 输出 */
                     fnc: 'help',
                 },
@@ -33,16 +36,17 @@ export class tianxing_help extends plugin {
             ]
         });
     };
-    async init(){
+/**   async init(){
         let firstHelpConfig = setting.getConfig("helpAboutTianXing");
         if (!firstHelpConfig.sent){
           await Common.relpyPrivate(config.masterQQ[0], '欢迎您使用天星插件！\n本插件有点简陋\n可能需要您了解一些报错的解决方法\n否则请在出问题后停用本插件！（本消息仅发送一次）')
           firstHelpConfig.sent = true
           setting.setConfig("helpAboutTianXing", firstHelpConfig)
         }
-      }
+      } */ 
     async help(e) {
-        return await help(this.e,'help');
+        await this.reply('咕咕咕')
+//        return await help(this.e,'help');
     }
     async lchelp(e) {
         
