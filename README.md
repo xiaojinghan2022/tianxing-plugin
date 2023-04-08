@@ -11,9 +11,13 @@ Github 是 ??? 推出的基于 Git 的代码托管平台（同时支持 SVN）�
 
 #### 安装教程
 进入云崽根目录
-```git clone https://github.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing```
+```
+git clone https://github.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing
+```
 或者
-```git clone https://gitee.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing```
+```
+git clone https://gitee.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing
+```
 
 #### 使用说明
 
