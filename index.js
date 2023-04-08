@@ -2,7 +2,7 @@
 import fs from 'node:fs'
 
 /**载入插件提示 */
-logger.info(('------------𒆙-----------'));
+logger.info('------------𒆙-----------');
 logger.info("tianxing插件载入中");
 logger.info('')
 /**读取.js文件*/
