@@ -20,7 +20,7 @@ export class tianxing_help extends plugin {
                      * 命令，|是或的意思，^代表前面有就匹配,$是后面。
                      * 为了方便，添加了特殊符号，输入’.q‘也可以触发帮助[doge]
                      */
-                    reg: '^#?(tianxing|天星|。|.)(help|帮助|命令|使用帮助|q|bz)$',
+                    reg: '^#?(tianxing|天星|。|.|tx)(help|帮助|命令|使用帮助|q|bz)$',
                     /** 输出 */
                     fnc: 'help',
                 },
