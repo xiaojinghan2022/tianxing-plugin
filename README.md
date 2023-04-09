@@ -9,11 +9,11 @@ Github 是 ??? 推出的基于 Git 的代码托管平台（同时支持 SVN）�
 
 使用如下命令（只要一个）
 ```
-git clone https://github.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing
+git clone https://github.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing-plugin
 ```
 或者
 ```
-git clone https://gitee.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing
+git clone https://gitee.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing-plugin
 ```
 
 #### 使用说明
