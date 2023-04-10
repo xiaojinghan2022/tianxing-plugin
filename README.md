@@ -31,6 +31,8 @@ git clone https://gitee.com/xiaojinghan2022/tianxing-plugin ./plugins/tianxing-p
 
 
 ## 更多
+| | | |
+|-|-|-|
 | 云崽插件库 | [github](https://github.com/yhArcadia/Yunzai-Bot-plugins-index) | [gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) |
 
 
