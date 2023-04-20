@@ -1,0 +1,7 @@
+{
+    "name": "tianxing-pluhin",
+    "type": "module",
+    "dependencies": {
+        "tianxing": "^0.0.1"
+    }
+}

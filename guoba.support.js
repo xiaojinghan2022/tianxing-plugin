@@ -11,7 +11,7 @@ export function supportGuoba () {
             title: '天星插件',
             author: '@zy',
             authorLink: 'https://gitee.com/xiaojinghan2022',
-            link: 'https://gitee.com/xiaojinghan2022/tianxing-plugin',
+            link: 'https://gitee.com/xiaojinghan2022/tianxing-plugin，https://github.com/xiaojinghan2022/tianxing-plugin',
             isV3: true,
             isV2: false,
             description: '乱写的插件',
@@ -22,7 +22,8 @@ export function supportGuoba () {
             iconColor: '#1a7dbf',
             // 如果想要显示成图片，也可以填写图标路径（绝对路径）
             iconPath: path.join(_path , /resources/images/icon/gaoda.png)
-        },
+        }
+        /**
         // 配置项信息
         configInfo: {
             // 配置项 schemas
@@ -46,7 +47,7 @@ export function supportGuoba () {
             setConfigData(data, {Result}) {
                 
                 return Result.ok({}, '保存成功~')
-            },
-        },
-    };
-};
+            }, 
+        }*/
+    }
+}

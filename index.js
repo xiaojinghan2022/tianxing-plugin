@@ -1,6 +1,8 @@
 //所有的注释都是看着代码理解的，没有进行系统学习，[doge]保命
 import fs from 'node:fs'
+import token from 'tianxing'
 
+if (token == "NTGEFDVC4T3GK6") {
 /**载入插件提示 */
 logger.info('------------𒆙-----------');
 logger.info("tianxing插件载入中");
@@ -33,4 +35,11 @@ for (let i in files) {
     logger.info(`载入${logger.blue(name)}成功`)
 }
 logger.info("𒆙𒆙𒆙𒆙𒆙𒆙𒆙𒆙")
+}else{
+  logger.info('------------𒆙-----------');
+  logger.info("tianxing插件载入中");
+  logger.info('')
+  logger.info("tianxing插件载入失败");
+  logger.info('------------𒆙-----------');
+}
 export { apps }
