@@ -2,7 +2,7 @@
 import fs from 'node:fs'
 import token from 'tianxing'
 
-if (token == "NTGEFDVC4T3GK6") {
+/**if (token == "NTGEFDVC4T3GK6") {*/
 /**载入插件提示 */
 logger.info('------------𒆙-----------');
 logger.info("tianxing插件载入中");
@@ -35,11 +35,14 @@ for (let i in files) {
     logger.info(`载入${logger.blue(name)}成功`)
 }
 logger.info("𒆙𒆙𒆙𒆙𒆙𒆙𒆙𒆙")
-}else{
+/**}else{
   logger.info('------------𒆙-----------');
   logger.info("tianxing插件载入中");
   logger.info('')
   logger.info("tianxing插件载入失败");
   logger.info('------------𒆙-----------');
-}
+  let apps = {};
+  logger.error('tianxing_token错误')
+  apps[name] = [你的token呢]
+} */
 export { apps }
